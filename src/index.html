@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>eikon parcel starter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <div class="first">
+      <form action="#" method="post">
+
+        <div class="part">
+          <label for="first-name"><input type="text" id="first-name" name="first-name" placeholder="Prénom"/></label>
+          <label for="name"><input type="text" id="name" name="name" placeholder="Nom"/></label>
+        </div>
+
+        <div class="part">
+          <label for="fr"><input type="radio" id="fr" name="lang" value="fr"/> Français<br/></label>
+          <label for="al"><input type="radio" id="al" name="lang" value="al"/> Allemand<br/></label>
+          <label for="it"><input type="radio" id="it" name="lang" value="it"/> Italien</label>
+        </div>
+
+        <div class="part">
+          <label for="newsletter"><input type="checkbox" id="newsletter" name="newsletter"/> S'abonner à la newsletter<br/></label>
+          <label for="terms"><input type="checkbox" id="terms" name="terms"/> J'accepte les conditions générales</label>
+        </div>
+
+        <div class="part">
+          <label for="country">
+            <select name="country" id="country">
+              <option value="su">Suisse</option>
+              <option value="fr">Français</option>
+              <option value="al">Allemagne</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="part">
+          <label for="message">Remarque</label><br/>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+
+      </form>
+    </div>
+
+    <div class="second">
+      <form action="#" method="post">
+
+        <div class="part">
+          <label for="first-name"><input type="text" id="first-name" name="first-name" placeholder="Prénom"/></label>
+          <label for="name"><input type="text" id="name" name="name" placeholder="Nom"/></label>
+        </div>
+
+        <div class="part">
+          <label class="radio-icone" for="fr2">
+            <input type="radio" id="fr2" name="lang" value="fr"/> 
+            <div class="radio-placeholder"></div>Français<br/>
+          </label>
+          <label class="radio-icone" for="al2">
+            <input type="radio" id="al2" name="lang" value="al"/> 
+            <div class="radio-placeholder"></div>Allemand<br/>
+          </label>
+          <label class="radio-icone" for="it2">
+            <input type="radio" id="it2" name="lang" value="it"/> 
+            <div class="radio-placeholder"></div>Italien
+          </label>
+        </div>
+
+        <div class="part">
+          <label for="newsletter"><input type="checkbox" id="newsletter" name="newsletter"/> S'abonner à la newsletter<br/></label>
+          <label for="terms"><input type="checkbox" id="terms" name="terms"/> J'accepte les conditions générales</label>
+        </div>
+
+        <div class="part">
+          <label for="country">
+            <select name="country" id="country">
+              <option value="su">Suisse</option>
+              <option value="fr">Français</option>
+              <option value="al">Allemagne</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="part">
+          <label for="message">Remarque</label><br/>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="part">
+          <button type="submit">Envoyer</button>
+        </div>
+
+      </form>
+    </div>
+
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>

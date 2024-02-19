@@ -1,0 +1,78 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+.part {
+  padding: 35px 0;
+}
+
+.first, .second {
+  padding: 35px;
+}
+
+.second {
+  background-color: #303245;
+}
+
+.second label {
+  color: #DC2E55;
+}
+
+
+/*Changer l'icone*/
+.radio-placeholder {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: orange;
+}
+
+input:checked + .radio-placeholder {
+  background: red;
+}
+
+.radio-icone input {
+	display: none;
+}
