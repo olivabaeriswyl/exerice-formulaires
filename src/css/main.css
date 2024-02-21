@@ -52,13 +52,30 @@ video {
 }
 
 .second {
-  background-color: #303245;
+  background-color: #15172B;
 }
 
 .second label {
   color: #DC2E55;
 }
 
+.second button {
+  background: #0088DD;
+  padding: 10px 20px;
+}
+
+.background-form {
+  background: #303245;
+  border-radius: 10px;
+  padding: 15px;
+  border: none;
+  color: #65657A;
+  font-family: serif;
+}
+
+input[type=text] {
+
+}
 
 /*Changer l'icone*/
 .radio-placeholder {
@@ -66,13 +83,15 @@ video {
   width: 16px;
   height: 16px;
   border-radius: 8px;
-  background: orange;
+  background: #303245;
+  margin-right: 10px;
 }
 
 input:checked + .radio-placeholder {
-  background: red;
+  background: rgb(128, 0, 255);
 }
 
 .radio-icone input {
 	display: none;
 }
+
