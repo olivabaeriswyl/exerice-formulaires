@@ -69,8 +69,14 @@
         </div>
 
         <div class="part">
-          <label for="newsletter2"><input type="checkbox" id="newsletter2" name="newsletter"/> S'abonner à la newsletter<br/></label>
-          <label for="terms2"><input type="checkbox" id="terms2" name="terms"/> J'accepte les conditions générales</label>
+          <label class="check-icone" for="newsletter2">
+            <input type="checkbox" id="newsletter2" name="newsletter"/>
+            <div class="check-placeholder"></div>S'abonner à la newsletter<br/>
+          </label>
+          <label class="check-icone" for="terms2">
+            <input type="checkbox" id="terms2" name="terms"/> 
+            <div class="check-placeholder"></div>J'accepte les conditions générales<br/>
+          </label>
         </div>
 
         <div class="part">
@@ -92,6 +98,39 @@
           <button type="submit">Envoyer</button>
         </div>
 
+      </form>
+    </div>
+
+    <div class="third">
+      <form action="#" method="post">
+
+        <div class="part">
+          <label for="first-name3"><input class="background-form3" type="text" id="first-name3" name="first-name" placeholder="Prénom"/></label>
+          <label for="name3"><input class="background-form3" type="text" id="name3" name="name" placeholder="Nom"/></label>
+        </div>
+
+        <div class="part">
+          <label for="fr3"><input type="radio" id="fr" name="lang" value="fr"/> Français<br/></label>
+          <label for="al3"><input type="radio" id="al" name="lang" value="al"/> Allemand<br/></label>
+          <label for="it3"><input type="radio" id="it" name="lang" value="it"/> Italien</label>
+        </div>
+
+        <div class="part">
+          <label class="switch" for="newsletter3">
+            <input type="checkbox" id="newsletter3" name="newsletter"/> 
+            <div class="switch-wrapper">
+              <div class="switch-inner"></div>
+            </div>
+            S'abonner à la newsletter<br/>
+          </label>
+          <label class="switch" for="terms3">
+            <input type="checkbox" id="terms3" name="terms"/> 
+            <div class="switch-wrapper">
+              <div class="switch-inner"></div>
+            </div>
+            J'accepte les conditions générales
+          </label>
+        </div>
       </form>
     </div>
 

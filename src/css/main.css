@@ -61,7 +61,11 @@ video {
 
 .second button {
   background: #0088DD;
-  padding: 10px 20px;
+  border: none;
+  color: white;
+  font-family: serif;
+  border-radius: 8px;
+  padding: 10px 100px;
 }
 
 .background-form {
@@ -73,8 +77,14 @@ video {
   font-family: serif;
 }
 
-input[type=text] {
+.third {
+  padding: 35px;
+}
 
+.background-form3 {
+  padding: 10px;
+  border: #bababa solid 1px;
+  border-radius: 3px;
 }
 
 /*Changer l'icone*/
@@ -83,8 +93,9 @@ input[type=text] {
   width: 16px;
   height: 16px;
   border-radius: 8px;
-  background: #303245;
+  background: #15172B;
   margin-right: 10px;
+  border:  #303245 solid 1px;
 }
 
 input:checked + .radio-placeholder {
@@ -95,3 +106,46 @@ input:checked + .radio-placeholder {
 	display: none;
 }
 
+
+.check-placeholder {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #15172B;
+  margin-right: 10px;
+  border:  #303245 solid 1px;
+}
+
+input:checked + .check-placeholder {
+  background: rgb(128, 0, 255);
+}
+
+.check-icone input {
+	display: none;
+}
+
+/*Changer checkbox*/
+
+.switch-wrapper {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  padding: 2px;
+  border-radius: 10px;
+  background: orange;
+}
+
+.switch-inner {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: red;
+}
+
+input:checked + .switch-wrapper .switch-inner {
+  margin-left: 10px;
+}
+
+.switch input {
+  display: none;
+}
