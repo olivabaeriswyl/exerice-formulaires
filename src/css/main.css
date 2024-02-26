@@ -124,28 +124,84 @@ input:checked + .check-placeholder {
 	display: none;
 }
 
+
+.radio-placeholder2 {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: #ffffff;
+  margin-right: 10px;
+  border:  #F44335 solid 4px;
+}
+
+input:checked + .radio-placeholder2 {
+  background: #F44335;
+  border: white solid 2px;
+}
+
+.radio-icone input {
+	display: none;
+}
+
 /*Changer checkbox*/
 
 .switch-wrapper {
   display: inline-block;
   width: 30px;
-  height: 20px;
-  padding: 2px;
+  height: 10px;
   border-radius: 10px;
-  background: orange;
+  background: #f4423583;
 }
 
 .switch-inner {
   width: 16px;
   height: 16px;
   border-radius: 8px;
-  background: red;
+  background: #F44335;
+  margin-top: -3px;
+  transition: margin 0.5s;
 }
 
 input:checked + .switch-wrapper .switch-inner {
-  margin-left: 10px;
+  margin-left: 14px;
 }
 
 .switch input {
   display: none;
+}
+
+/*Changer text*/
+
+.textfield {
+  position: relative;
+}
+
+.textfield label {
+  position: absolute;
+  top: 1px;
+  left: 10px;
+}
+
+input:focus + label {
+  transform: translateY(-18px) scale(0.7);
+}
+
+.textfield label {
+  position: absolute;
+  top: 44px;
+  left: 10px;
+  pointer-events: none;
+  background: white; 
+  transition: transform 0.3s; 
+  transform-origin: left;
+  padding: 0 5px;
+}
+
+.textfield input:hover {
+  border: #000000 solid 1px;
+}
+
+.textfield input:focus {
+  border: rgb(0, 0, 0) solid 2px;
 }
